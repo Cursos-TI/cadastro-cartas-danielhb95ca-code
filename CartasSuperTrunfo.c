@@ -117,13 +117,51 @@
 
         //comparação entre as cartas
         printf("=== Comparações entre as Cartas ===\n");
-        printf("\nPopulação Carta 1 > Carta 2: %d\n", (populacao1 > populacao2));
-        printf("Area Carta 1 > Carta 2: %d\n", (area1 > area2));
-        printf("PIB Carta 1 > Carta 2: %d\n", (pib1 > pib2));
-        printf("Pontos Turisticos Carta 1 > Carta 2: %d\n", (turistico1 > turistico2));
-        printf("Densidade Populacional Carta 1 vence: %d\n", (densidade1 < densidade2));
-        printf("PIB per capita Carta 1 > Carta 2: %d\n", (pibpercapita1 > pibpercapita2));
-        printf("Super Poder Carta 1 > Carta 2: %d\n", (superpoder1 > superpoder2));
+
+        if (populacao1 > populacao2){
+            printf("Carta 1 venceu: %lu \n", populacao1);
+        }else{
+            printf("Carta 2 venceu: %lu \n", populacao2);
+        }
+        if (area1 > area2){
+            printf("Carta 1 venceu: %.2f \n", area1);
+        }else{
+            printf("Carta 2 venceu: %.2f \n", area2);
+        }
+        if (pib1 > pib2){
+            printf("Carta 1 venceu: %.2f \n", pib1);
+        }else{
+            printf("Carta 2 venceu: %.2f \n", pib2);
+        }
+        if (turistico1 > turistico2){
+            printf("Carta 1 venceu: %d \n", turistico1);
+        }else{
+            printf("Carta 2 venceu: %d \n", turistico2);
+        }
+        if (densidade1 < densidade2){
+            printf("Carta 1 venceu: %.2f \n", densidade1);
+        }else{
+            printf("Carta 2 venceu: %.2f \n", densidade2);
+        }
+        if (pibpercapita1 > pibpercapita2){
+            printf("Carta 1 venceu: %.2f \n", pibpercapita1);
+        }else{
+            printf("Carta 2 venceu: %.2f \n", pibpercapita2);
+        }
+        if (superpoder1 > superpoder2){
+            printf("Carta 1 venceu: %.2f \n", superpoder1);
+        }else{
+            printf("Carta 2 venceu: %.2f \n", superpoder2);
+        }
+        
+        
+        //printf("\nPopulação Carta 1 > Carta 2: %d\n", (populacao1 > populacao2));
+        //printf("Area Carta 1 > Carta 2: %d\n", (area1 > area2));
+        //printf("PIB Carta 1 > Carta 2: %d\n", (pib1 > pib2));
+        //printf("Pontos Turisticos Carta 1 > Carta 2: %d\n", (turistico1 > turistico2));
+        //printf("Densidade Populacional Carta 1 vence: %d\n", (densidade1 < densidade2));
+        //printf("PIB per capita Carta 1 > Carta 2: %d\n", (pibpercapita1 > pibpercapita2));
+        //printf("Super Poder Carta 1 > Carta 2: %d\n", (superpoder1 > superpoder2));
 
         return 0;
 
